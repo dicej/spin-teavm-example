@@ -1,0 +1,19 @@
+spin_version = "1"
+authors = ["Fermyon Engineering <engineering@fermyon.com>"]
+name = "spin-teavm-example"
+trigger = { type = "http", base = "/" }
+version = "1.0.0"
+
+[variables]
+object = { default = "teapot" }
+
+[[component]]
+id = "spin_http"
+source = "target/generated/wasm/teavm-wasm/classes.wasm"
+allowed_http_hosts = ["https://some-random-api.ml"]
+[component.trigger]
+route = "/..."
+[component.config]
+message = "I'm a {{object}}"
+[component.build]
+command = "mvn prepare-package"
