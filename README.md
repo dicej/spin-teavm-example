@@ -31,11 +31,11 @@ curl http://localhost:3000
 ### Prerequisite
 
 - [Rust](https://rustup.rs/)
-- A recent wit-bindgen (git commit 4934194 is known to work)
+- A recent wit-bindgen (git commit 9609ca8 is known to work)
 
 ```sh
 cargo install --git https://github.com/bytecodealliance/wit-bindgen \
-    --rev 4934194d9bcb420df68d2a18598c27dd276c1263 --locked wit-bindgen-cli
+    --rev 9609ca8daf2dadcb71082a1ad7ec86bbf0fbb5ef --locked wit-bindgen-cli
 ```
 
 ### (Re-)generating the bindings
