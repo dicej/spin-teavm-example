@@ -6,15 +6,15 @@ This is a example demonstrating how to use [TeaVM-WASI](https://github.com/fermy
 
 - [A recent JDK (e.g. OpenJDK 18)](https://jdk.java.net/18/)
 - [Maven](https://maven.apache.org/download.cgi)
-- [Spin 0.5.0](https://github.com/fermyon/spin/releases/tag/v0.5.0)
+- [Spin 0.6.0](https://github.com/fermyon/spin/releases/tag/v0.6.0)
 - [cURL](https://curl.se/download.html) (or a web browser) for testing
 
 On Ubuntu 22.04 x86_64, this should do the job:
 
 ```sh
 sudo apt install openjdk-18-jdk maven curl
-curl -L -O https://github.com/fermyon/spin/releases/download/v0.5.0/spin-v0.5.0-linux-amd64.tar.gz
-tar xf spin-v0.5.0-linux-amd64.tar.gz
+curl -L -O https://github.com/fermyon/spin/releases/download/v0.6.0/spin-v0.6.0-linux-amd64.tar.gz
+tar xf spin-v0.6.0-linux-amd64.tar.gz
 sudo cp spin /usr/local/bin/
 ```
 
