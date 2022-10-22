@@ -7,8 +7,8 @@
   <version>1.0-SNAPSHOT</version>
 
   <properties>
-    <java.version>1.8</java.version>
-    <teavm.version>0.2.3</teavm.version>
+    <java.version>9</java.version>
+    <teavm.version>0.2.4</teavm.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 

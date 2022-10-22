@@ -7,8 +7,9 @@ version = "1.0.0"
 [[component]]
 id = "spin_http"
 source = "target/generated/wasm/teavm-wasm/classes.wasm"
-allowed_http_hosts = [ "https://some-random-api.ml" ]
-environment = { URL = "https://some-random-api.ml/facts/dog" }
+allowed_http_hosts = [ "https://raw.githubusercontent.com" ]
+environment = { URL = "https://raw.githubusercontent.com/dicej/dicej/master/jabberwocky.txt" }
+files = [{ source = "static-assets/", destination = "/" }]
 
 [component.trigger]
 route = "/..."
