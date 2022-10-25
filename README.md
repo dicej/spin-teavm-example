@@ -28,7 +28,7 @@ curl http://localhost:3000
 
 ## (Optional) Re-generate bindings
 
-### Prerequisite
+### Prerequisites
 
 - [Rust](https://rustup.rs/)
 - A recent wit-bindgen (git commit 9609ca8 is known to work)
